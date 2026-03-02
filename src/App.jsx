@@ -5,6 +5,7 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import Technologies from "./components/Technologies";
 import Testimonials from "./components/Testimonials";
 import CTA from "./components/CTA";
+import QuerySection from "./components/QuerySection";
 import Footer from "./components/Footer";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <WhyChooseUs />
       <Technologies />
       <Testimonials />
+      <QuerySection/>
       <CTA />
       <Footer />
     </>
