@@ -4,7 +4,7 @@ import { Linkedin, Twitter, Github } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="bg-[#0a0f1c] text-gray-400 px-8 pt-20 pb-10">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-12">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12">
 
         {/* Brand */}
         <div>
@@ -54,28 +54,6 @@ export default function Footer() {
             <li className="hover:text-white transition cursor-pointer">Cybersecurity</li>
             <li className="hover:text-white transition cursor-pointer">Custom Development</li>
             <li className="hover:text-white transition cursor-pointer">Data & Analytics</li>
-          </ul>
-        </div>
-
-        {/* Company */}
-        <div>
-          <h4 className="text-white font-semibold mb-6">Company</h4>
-          <ul className="space-y-3">
-            <li className="hover:text-white transition cursor-pointer">About Us</li>
-            <li className="hover:text-white transition cursor-pointer">Careers</li>
-            <li className="hover:text-white transition cursor-pointer">Blog</li>
-            <li className="hover:text-white transition cursor-pointer">Contact</li>
-          </ul>
-        </div>
-
-        {/* Resources */}
-        <div>
-          <h4 className="text-white font-semibold mb-6">Resources</h4>
-          <ul className="space-y-3">
-            <li className="hover:text-white transition cursor-pointer">Case Studies</li>
-            <li className="hover:text-white transition cursor-pointer">Whitepapers</li>
-            <li className="hover:text-white transition cursor-pointer">Documentation</li>
-            <li className="hover:text-white transition cursor-pointer">Support</li>
           </ul>
         </div>
 
